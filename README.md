@@ -23,15 +23,15 @@ Agro-Tech is a comprehensive technology platform empowering farmers with smart t
 
 ## 🛠️ Technologies Used
 - **Frontend**: HTML5, CSS3, JavaScript
-- **Backend**: (Mention if applicable)
+- **Backend**: 
 - **APIs**: Weather data, payment gateway, etc.
-- **Hosting**: (Mention hosting platform)
+
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 - Web browser (Chrome, Firefox recommended)
-- (Any other requirements)
+
 
 ### Installation
 1. Clone the repository:
