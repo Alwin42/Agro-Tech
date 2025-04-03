@@ -1,0 +1,54 @@
+body
+{
+    background-image: url(/assets/about_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+}
+.navbar
+{
+    background-color: #000000;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.navbar a{
+    display: block;
+    color: rgb(243, 237, 237);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background-color: #ffffff; 
+    color: #424242;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+    
+}
+.titlecard
+{
+    background-color: rgb(220, 148, 81) ;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 20px;
+}
+.titlecard h2{
+    text-align: center;
+    color: #ffffff;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+.titlecard h3{
+    display: contents;
+    justify-content: center;
+    color: #ffffff;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
