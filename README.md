@@ -1,6 +1,6 @@
 # 🌱 Agro-Tech - Digital Platform for Modern Farmers
 
-![Agro-Tech Banner]([https://example.com/path/to/banner-image.jpg](https://images.unsplash.com/photo-1620200423727-8127f75d7f53?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)) <!-- Replace with your actual image -->
+![Agro-Tech Banner]([https://unsplash.com/photos/green-grass-field-under-white-clouds-during-daytime-PvwdlXqo85k)) <!-- Replace with your actual image -->
 
 ## 📌 Overview
 Agro-Tech is a comprehensive technology platform empowering farmers with smart tools, agricultural services, and an e-commerce marketplace. Our mission is to bridge the gap between traditional farming and digital innovation.
