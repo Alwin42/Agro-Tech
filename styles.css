@@ -131,3 +131,37 @@ body
     margin-top: 10px;
     display: none;
 }
+.container1
+{
+    background-image: url(./assets/background3.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+
+}
+.smart-farm
+{
+    background-color: #a2f3a7;
+    padding: 30px;
+    border-radius: 20px;
+    display: block ;
+    margin: 100px 30px;
+}
+.smart-farm .title1
+{
+    align-items: center;
+    justify-content: center;
+    font-family: Helvetica ,Arial, sans-serif; 
+    display: contents;
+    font: 24px;
+    margin: 20px 0px;
+    display: block;
+}
+.smart-farm .text-contents
+{
+    display: flex;
+    text-align: left;
+    justify-content: center;
+}
