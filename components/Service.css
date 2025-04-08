@@ -1,0 +1,141 @@
+body
+{
+    background-image: url(../background2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+}
+.navbar
+{
+    background-color: #000000;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.navbar a{
+    display: block;
+    color: rgb(243, 237, 237);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background-color: #ffffff; 
+    color: #424242;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+    
+}
+.title
+{
+    text-align: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.card
+{
+    width: 90%;
+    max-width: 400px;
+    color: #fff;
+    background: linear-gradient(to bottom, rgb(24, 222, 107), rgb(141, 246, 3));
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.search input{
+    border:0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+.search button
+{
+    border:0;
+    outline: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.search button img
+{
+    width: 26px;
+}
+
+.weather-icon
+{
+    width: 170px;
+    margin-top: 20px;
+}
+
+.weather
+{
+    font-size: 20px;
+    font-weight: 500;
+    display: none;
+}
+
+.weather h2
+{
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: -30px;
+}
+.details
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 60px;
+}
+.col
+{
+    display: flex;
+    align-items: center;
+    text-align:left; 
+}
+.col img
+{
+    width: 65px;
+    margin-right: 10px;
+
+}
+.humidity, .wind
+{
+    font-size: 25px;
+    margin-top: 6px;
+}
+.error
+{
+    text-align: left;
+    margin-left:10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+}
+.weather-forecast
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #414141;
+    font-family: Arial, Helvetica, sans-serif;
+}
