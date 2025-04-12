@@ -151,20 +151,22 @@ body
     height: 100vh;
     margin: 0;
     justify-content: center;
-
+    display: flex;
+   
 }
 .smart-farm
 {
     background-color: rgba(0, 0, 0, 0.5); 
-    justify-content: center;
+    
     padding: 30px;
     border-radius: 20px;
     display: block ;
-    margin: 80px 30px;
+    margin: 20px 30px;
     width: 800px;
     height: 600px;
     align-items: center;
     position: relative;
+    
 }
 .smart-farm .title1
 {
@@ -182,7 +184,7 @@ body
 .smart-farm .text-contents
 {
     display: block;
-    text-align: center;
+    text-align: left;
     justify-content: center;
     color: #fff;
 }
@@ -191,15 +193,15 @@ body
     height: 400px;     
     border-radius: 10px;  
     display: block;   
-    margin: 0 auto;   
+    margin: 10px;   
   }
 .button
 {
     align-items: center;
     display: flex;
     justify-content: center;
-    align-items: center;
     margin: 20px;
+
 }
 .IOT{
     background-color: #27d300; 
@@ -219,9 +221,57 @@ body
 }
  .ai-advice
  {
-    background-color: #b82424;
+    background-image: url(assets/background4.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
     margin: 0;
-    padding: 40px;
-
+    justify-content: center;
+    display: flex;
  }
-  
+ .container2 
+ {
+    background-color: rgba(0, 0, 0, 0.5); 
+    
+    padding: 30px;
+    border-radius: 20px;
+    display: block ;
+    margin: 20px 30px;
+    width: 800px;
+    height: 600px;
+    
+ }
+ .container2 .title
+ {
+    text-transform: capitalize;
+    text-decoration: solid;
+    text-align: center;
+    justify-content: center;
+    font-family: Helvetica ,Arial, sans-serif; 
+    display: contents;
+    font: 24px;
+    margin: auto;
+    display: block;
+    color: #fff;
+ }
+ .ai-advice.container2 .text-contents 
+ {
+    display: flex;
+    text-align: left;
+    justify-content:left;
+    color: #fff;
+ }
+.ai-advice-img img
+{
+    width: 400px;    
+    height: 300px;     
+    border-radius: 10px;
+    margin: 10px;
+}
+.ai-advice-img
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
