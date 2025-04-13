@@ -7,6 +7,11 @@ body
     height: 100vh;
     margin: 0;
 }
+*
+{
+    margin: 0;
+    padding: 0;
+}
 .navbar
 {
     background-color: #000000;
@@ -42,10 +47,11 @@ body
     max-width: 400px;
     color: #fff;
     background: linear-gradient(to bottom, rgb(24, 222, 107), rgb(141, 246, 3));
-    margin: 100px auto 0;
+    margin: 10px auto 0;
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
+    margin-bottom: 440px;
 }
 .search{
     width: 100%;
@@ -96,7 +102,7 @@ body
 {
     font-size: 25px;
     font-weight: 400;
-    margin-top: -30px;
+    margin-top: 30px;
 }
 .details
 {
@@ -138,4 +144,65 @@ body
     justify-content: center;
     color: #414141;
     font-family: Arial, Helvetica, sans-serif;
+    margin : 30px
+}
+.insurance
+{
+    display: flex;
+    background-image: url(../assets/background4.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: auto;
+    gap:0;
+
+}
+.insurance .title
+{
+    color: #ffffff;
+    font-family: poppins;
+    font-size: larger;
+    text-decoration: solid;
+}
+.card1
+{
+    width: 90%;
+    max-width: 400px;
+    color: #fff;
+    background: linear-gradient(to bottom, rgb(4, 199, 0), rgb(0, 96, 0));
+    margin: 15px auto 0;
+    border-radius: 20px;
+    padding: 30px 25px;
+    text-align: center;
+    height: 270px;
+    justify-content: center;
+}
+.insurance-button
+{
+    color: #ffffff;
+    background-color: rgb(52, 186, 11);
+    border-radius: 30px;
+    border: none;
+    margin-top: 20px;
+    padding: 10px 30px;
+    align-items: center;
+    justify-content: center;
+}
+.insurance-button:hover
+{
+    background-color: rgb(0, 96, 0);
+}
+
+.card2
+{
+    width: 90%;
+    max-width: 400px;
+    color: #fff;
+    background: linear-gradient(to bottom, rgb(4, 199, 0), rgb(0, 96, 0));
+    margin: 15px auto 0;
+    border-radius: 20px;
+    padding: 30px 25px;
+    text-align: center;
+    height: 270px;
 }
