@@ -6,7 +6,7 @@ body
     background-repeat: no-repeat;
     height: 100vh;
     margin: 0;
-    font-family: poppins;
+    font-family: Helvetica; 
 }
 .navbar
 {
@@ -14,7 +14,7 @@ body
     overflow: hidden;
     display: flex;
     justify-content: center;
-    font-family: poppins;
+    font-family: Helvetica; 
    
 }
 .navbar a{
@@ -40,7 +40,7 @@ body
 .titlecard h2{
     text-align: center;
     color: #ffffff;
-    font-family: poppins;
+    font-family: Helvetica; 
     font-weight: 100;
 }
 
@@ -48,7 +48,7 @@ body
     display: contents;
     justify-content: center;
     color: #ffffff;
-    font-family: poppins;
+    font-family: Helvetica; 
     font-weight: 100;
     text-decoration: solid;
 }

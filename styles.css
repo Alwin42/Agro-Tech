@@ -20,7 +20,7 @@ body
     overflow: hidden;
     display: flex;
     justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica;
    
 }
 .navbar a{
@@ -36,6 +36,15 @@ body
     transition: background-color 0.3s ease, color 0.3s ease; 
     
 }
+.sec1
+{
+    height: 100vh;
+}
+.sec2
+{
+    height: 100vh;
+}
+
 .title
 {
     text-align: center;
@@ -174,7 +183,7 @@ body
     text-decoration: solid;
     text-align: center;
     justify-content: center;
-    font-family: Helvetica ,Arial, sans-serif; 
+    font-family: Helvetica; 
     display: contents;
     font: 24px;
     margin: auto;

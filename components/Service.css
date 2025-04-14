@@ -18,7 +18,7 @@ body
     overflow: hidden;
     display: flex;
     justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica; 
    
 }
 .navbar a{
@@ -33,6 +33,13 @@ body
     color: #424242;
     transition: background-color 0.3s ease, color 0.3s ease; 
     
+}
+.sec1
+{
+    height: 100vh;
+}
+.sec2{
+    height: 100vh;
 }
 .title
 {
@@ -143,7 +150,7 @@ body
     align-items: center;
     justify-content: center;
     color: #414141;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica; 
     margin : 30px
 }
 .insurance
@@ -158,10 +165,23 @@ body
     gap:0;
 
 }
+.insurance-img1 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+
+.insurance-img2 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    object-fit: cover;
+}
 .insurance .title
 {
-    color: #ffffff;
-    font-family: poppins;
+    color: #000000;
+    font-family: Helvetica; 
     font-size: larger;
     text-decoration: solid;
 }
@@ -169,13 +189,13 @@ body
 {
     width: 90%;
     max-width: 400px;
-    color: #fff;
-    background: linear-gradient(to bottom, rgb(4, 199, 0), rgb(0, 96, 0));
-    margin: 15px auto 0;
+    color: #000000;
+    background-color: #ffffff;
+    margin: 45px auto 0;
     border-radius: 20px;
     padding: 30px 25px;
     text-align: center;
-    height: 270px;
+    height: 390px;
     justify-content: center;
 }
 .insurance-button
@@ -198,11 +218,36 @@ body
 {
     width: 90%;
     max-width: 400px;
-    color: #fff;
-    background: linear-gradient(to bottom, rgb(4, 199, 0), rgb(0, 96, 0));
-    margin: 15px auto 0;
+    color: #000000;
+    background-color: white;
+    margin: 45px auto 0;
     border-radius: 20px;
     padding: 30px 25px;
     text-align: center;
-    height: 270px;
+    height: 410px;
+}
+.sec3
+{
+    height: 100vh;
+    font-family: Helvetica;
+    background-color: #ffffff;
+}
+.rent-equipment .title
+{
+    color: #000000;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.rent-equipment .tractors .card1
+{
+    background-color:  rgba(12, 12, 12, 0.986);;
+    
+}
+.tractors .tractor-img img
+{
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
 }
