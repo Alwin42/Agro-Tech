@@ -231,6 +231,11 @@ body
     height: 100vh;
     font-family: Helvetica;
     background-color: #ffffff;
+    
+}
+.rent-equipment
+{
+    display: flex;
 }
 .rent-equipment .title
 {
@@ -239,12 +244,45 @@ body
     margin-left: 20px;
     margin-top: 30px;
 }
-.rent-equipment .tractors .card1
+.rent-equipment .tractors
+{
+    background-color: #000000;
+    width: 300px;
+    height: 380px;
+    border-radius: 10px;
+}
+.rent-equipment .card1
+{
+    background-color:  #fffffffb;
+    margin-right: 150px;
+    margin-left: -150px;
+    margin-top: 90px;
+    transform: scale(1.1);
+    cursor: pointer;
+   
+    
+}
+.rent-equipment .card1 :hover
+{
+    transform: scale(1.1);
+    cursor: pointer;
+    
+}
+.tractors .tractor-img img
+{
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-top: 5px;
+}
+
+.rent-equipment .Combine-Harvester .card2
 {
     background-color:  rgba(12, 12, 12, 0.986);;
     
 }
-.tractors .tractor-img img
+.Combine-Harvester .Combine-Harvester-img img
 {
     width: 250px;
     height: 200px;
