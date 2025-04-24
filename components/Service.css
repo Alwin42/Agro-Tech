@@ -56,7 +56,7 @@ body
     background: linear-gradient(to bottom, rgb(24, 222, 107), rgb(141, 246, 3));
     margin: 10px auto 0;
     border-radius: 20px;
-    padding: 40px 35px;
+    padding: 75px 35px;
     text-align: center;
     margin-bottom: 440px;
 }
@@ -185,19 +185,6 @@ body
     font-size: larger;
     text-decoration: solid;
 }
-.card1
-{
-    width: 90%;
-    max-width: 400px;
-    color: #000000;
-    background-color: #ffffff;
-    margin: 45px auto 0;
-    border-radius: 20px;
-    padding: 30px 25px;
-    text-align: center;
-    height: 390px;
-    justify-content: center;
-}
 .insurance-button
 {
     color: #ffffff;
@@ -221,6 +208,7 @@ body
     color: #000000;
     background-color: white;
     margin: 45px auto 0;
+    margin-top: 150px;
     border-radius: 20px;
     padding: 30px 25px;
     text-align: center;
@@ -236,56 +224,12 @@ body
 .rent-equipment
 {
     display: flex;
+    justify-content: center;
 }
 .rent-equipment .title
 {
-    color: #000000;
-    text-align: left;
+    color: #282626;
+    text-align: center;
     margin-left: 20px;
     margin-top: 30px;
-}
-.rent-equipment .tractors
-{
-    background-color: #000000;
-    width: 300px;
-    height: 380px;
-    border-radius: 10px;
-}
-.rent-equipment .card1
-{
-    background-color:  #fffffffb;
-    margin-right: 150px;
-    margin-left: -150px;
-    margin-top: 90px;
-    transform: scale(1.1);
-    cursor: pointer;
-   
-    
-}
-.rent-equipment .card1 :hover
-{
-    transform: scale(1.1);
-    cursor: pointer;
-    
-}
-.tractors .tractor-img img
-{
-    width: 250px;
-    height: 200px;
-    border-radius: 10px;
-    object-fit: cover;
-    margin-top: 5px;
-}
-
-.rent-equipment .Combine-Harvester .card2
-{
-    background-color:  rgba(12, 12, 12, 0.986);;
-    
-}
-.Combine-Harvester .Combine-Harvester-img img
-{
-    width: 250px;
-    height: 200px;
-    border-radius: 10px;
-    object-fit: cover;
 }
