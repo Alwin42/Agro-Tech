@@ -218,18 +218,73 @@ body
 {
     height: 100vh;
     font-family: Helvetica;
-    background-color: #ffffff;
+    background-image: url(../assets/background5.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
     
 }
 .rent-equipment
 {
-    display: flex;
+    display: grid;
     justify-content: center;
 }
 .rent-equipment .title
 {
-    color: #282626;
+    color: #fffafa;
     text-align: center;
-    margin-left: 20px;
+    margin-top: 10px;
+    margin-left: 70px;
+    font-size: 20px;
+}
+.cards
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.cards .c1
+{
+    display:block;
+    background-color : rgba(32, 32, 32, 0.5);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    color: #ffffff;
+    width : 350px;
+    height : 350px;
     margin-top: 30px;
+    border-radius: 20px;
+    padding: 20px 20px;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 20px;
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+}
+.cards .c1:hover
+{
+    transform: scale(1.05);
+}
+.cards .c1 img
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+    align-items:center;
+}
+.c1 .btn
+{
+    background-color:green;
+    color: #ffffff;
+    border-radius: 30px;
+    border: none;
+    margin-top: 20px;
+    padding: 10px 30px;
+
 }
