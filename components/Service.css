@@ -280,15 +280,17 @@ body
 }
 .c1 .btn
 {
-    background-color:green;
-    color: #ffffff;
+    background-color:rgb(43, 42, 42);
+    color: #ebe3e3;
     border-radius: 30px;
     border: none;
     margin-top: 20px;
     padding: 10px 30px;
+    font-size: 16px;
 
 }
 .c1 .btn:hover
 {
-    background-color: #03ff18;
+    background-color: #ffffff;
+    color: #000000;
 }

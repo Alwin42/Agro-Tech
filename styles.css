@@ -50,6 +50,9 @@ body
     text-align: center;
     justify-content: center;
     color: #ffffff;
+    font-family: Helvetica;
+    font-weight:100;
+    text-decoration: solid;
 }
 .container0
 {
@@ -61,10 +64,10 @@ body
     width: 90%;
     max-width: 400px;
     color: #fff;
-    background: linear-gradient(to bottom, rgb(24, 222, 107), rgb(141, 246, 3));
+    background: linear-gradient(to bottom, rgb(5, 255, 68), rgb(4, 141, 22));
     margin: 10px auto 0;
     border-radius: 20px;
-    padding: 40px 45px;
+    padding: 70px 45px;
     text-align: center;
 }
 .search{
@@ -103,6 +106,7 @@ body
 {
     width: 170px;
     margin-top: 20px;
+    
 }
 
 .weather
@@ -116,7 +120,7 @@ body
 {
     font-size: 25px;
     font-weight: 400;
-    margin-top: -60px;
+    margin-top: 60px;
 }
 .details
 {
