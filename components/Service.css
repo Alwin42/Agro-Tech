@@ -1,3 +1,8 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
 body
 {
     background-image: url(../assets/background.jpg);
@@ -7,11 +12,7 @@ body
     height: 100vh;
     margin: 0;
 }
-*
-{
-    margin: 0;
-    padding: 0;
-}
+
 .navbar
 {
     background-color: #000000;
@@ -293,4 +294,47 @@ body
 {
     background-color: #ffffff;
     color: #000000;
+}
+.sec4
+{
+    background-image: url(../assets/background6.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+.sec4 .title
+{
+
+    color: #000000;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+}
+.Agromists-Veterinarians
+{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 20px;
+    margin: 20px auto auto;
+    width: 90%;
+    max-width: 850px;
+}
+.Agromists-Veterinarians .contents1
+{
+    
+    padding: 20px;
+    color: #ffffff;
+    font-family: Helvetica;
+    font-size: 20px;
+}
+.Agromists-Veterinarians .contents2
+{
+    
+    padding: 20px;
+    color: #ffffff;
+    font-family: Helvetica;
+    font-size: 20px;
 }
