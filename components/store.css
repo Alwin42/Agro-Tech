@@ -1,6 +1,8 @@
 body
 {
-    background-image: url(/assets/about_bg.jpg);
+    background-image: url(../assets/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;
     
@@ -109,4 +111,9 @@ body
 {
     background-color: #ffffff;
     color: #000000;
+}
+.sec2 .fertilizer
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
