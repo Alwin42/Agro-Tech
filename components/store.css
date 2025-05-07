@@ -117,3 +117,10 @@ body
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+.sec3 .farm-inputs
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    gap: 20px;
+}
